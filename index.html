@@ -5,70 +5,131 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="" />
+        <link href="css/bootstrap.css" rel="stylesheet" />
         <link href="css/my-style.css" rel="stylesheet" />
         <link href="themify-icons/themify-icons.css" rel="stylesheet" />
 
     </head>
     <body>
-        <div class ="col-4-sm">
-            <section class = "body-left">
-                <div class ="give-me-space">
-                    <div class ="give-me-space">
-                        <img src ="images/profile-picture.jpg" class = "profile-picture" alt=""/>
+        <section id ="photo-and-contacts">
+            <div class ="row">
+                <div class ="col-lg-3 col-md-3 col-sm-12">
+                    <img src ="images/profile-picture.jpg" class = "profile-picture" alt=""/>
+                    <div class ="about-me">
+                        <h3>Fullstack Software Developer</h3>
+                        <p>
+                            Hi! I am <b>Solomon Lee</b>, I am a versatile player in a team. I easily shift back and forth between frontend 
+                            and backend programming. I’m a Software Developer who knows how to have fun while coding. I used to cheer up
+                            my teammates when we are all salivating with heavy workload. "Simplest Code." 
+                            That's the very first thing I think of whenever I do an algorithm.
+                        </p>
                     </div>
-                    <h3 class ="white center">Solomon Lee</h3>
-                    <h5 class ="antique-white center">Fullstack Software Developer</h5>
-                    <p class ="white justify">
-                        Hi! I am Solomon Lee, I am a versatile player in a team. I easily shift back and forth between frontend 
-                        and backend programming. I’m a Software Developer who knows how to have fun while coding. I used to cheer up
-                        my teammates when we are all salivating with heavy workload. "Simplest Code." 
-                        That's the very first thing I think of whenever I do an algorithm.
-                    </p>
-                    <div class ="banner bg-cyan">
-                        <h1 class ="banner-title white center">
-                            <i class ="ti-light-bulb white"></i> SKILLS
-                        </h1>
-                    </div>
-                    <h5 class ="antique-white left">Web Development</h5>
-                    <div class ="row">
-                        <div class ="col-12">
-                            <div class ="col-3 white banner-details">CSS3/SCSS</div>
-                            <div class ="col-9 bg-red skill-percentage"></div>
+                </div>
+                <div class ="col-lg-9 col-md-9 col-sm-12">
+                    <div class ="col-lg-12 col-md-9 col-sm-12 contact-information">
+                        <div class ="banner bg-cyan">Contacts</div>
+                        <div class ="col-lg-6 col-md-6 contact">
+                            <i class ="ti-email"></i> 
+                            <label>Email : </label>
+                            <span>solomon.maico.lee@gmail.com</span>
+                        </div>
+                        <div class ="col-lg-6 col-md-6 contact">
+                            <i class ="ti-user"></i> 
+                            <label>Portfolio : </label>
+                            <span>simplicilee.github.io</span>
+                        </div>
+                        <div class ="col-lg-6 col-md-6 contact">
+                            <i class ="ti-heart"></i> 
+                            <label>Birth : </label>
+                            <span>May 13, 1994</span>
+                        </div>
+                        <div class ="col-lg-6 col-md-6 contact">
+                            <i class ="ti-linkedin"></i> 
+                            <label>LinkedIn : </label>
+                            <span>linkedin.com/in/solomonmaicolee</span>
+                        </div>
+                        <div class ="col-lg-6 col-md-6 contact">
+                            <i class ="ti-mobile"></i> 
+                            <label>Phone : </label>
+                            <span>+ (63) 916 165 7172</span>
+                        </div>
+                        <div class ="col-lg-6 col-md-6 contact">
+                            <i class ="ti-github"></i> 
+                            <label>Github : </label>
+                            <span>github.com/simplicilee</span>
                         </div>
                     </div>
-                    <div class ="row">
-                        <div class ="col-3-sm white banner-details">PHP/MYSQL</div>
-                        <div class ="col-9-sm bg-purple skill-percentage"></div>
-                    </div>
-                    <div class ="row">
-                        <div class ="col-4-sm white banner-details">JavaScript</div>
-                        <div class ="col-8-sm bg-yellow skill-percentage"></div>
-                    </div>
-                    <div class ="row">
-                        <div class ="col-4-sm white banner-details">Google API</div>
-                        <div class ="col-8-sm bg-cyan skill-percentage"></div>
-                    </div>
-                    <div class ="row">
-                        <div class ="col-5-sm white banner-details">Node Js</div>
-                        <div class ="col-7-sm bg-green skill-percentage"></div>
-                    </div>
-                    <div class ="row">
-                        <div class ="col-5-sm white banner-details">REST API</div>
-                        <div class ="col-7-sm bg-orange skill-percentage"></div>
-                    </div>
-                    <div class ="row">
-                        <div class ="col-5-sm white banner-details">Socket IO</div>
-                        <div class ="col-7-sm bg-blue skill-percentage"></div>
+                    <div class ="col-lg-12 col-md-9 col-sm-12 experience-information">
+                        <div class ="banner bg-cyan">Experience</div>
+                        <h3>Tranzend Solutions & Trading Corporation (MAY 2017 - JULY 2018)</h3>
+                        <p><b>Position:</b> Lead Front End Developer / Fullstack Developer / Software Developer / Web Designer Worked on
+                            Fullstack/UI development, improvements & integration with CSS3, PHP backend, MySQL, 
+                            JavaScript, Ajax, JQUERY, JSON and Yii 1.1 Framework
+                        </p>
                     </div>
                 </div>
-            </section>
-        </div>
-        <div class ="col-4-sm">
-            <section class = "body-right">
-                <div class ="give-me-space">
+            </div>
+        </section>
 
+        <!--        <div class ="col-4-sm">
+                    <section class = "body-left">
+                        <div class ="give-me-space">
+                            <div class ="give-me-space">
+                                <img src ="images/profile-picture.jpg" class = "profile-picture" alt=""/>
+                            </div>
+                            <h3 class ="white center">Solomon Lee</h3>
+                            <h5 class ="antique-white center">Fullstack Software Developer</h5>
+                            <p class ="white justify">
+                                Hi! I am Solomon Lee, I am a versatile player in a team. I easily shift back and forth between frontend 
+                                and backend programming. I’m a Software Developer who knows how to have fun while coding. I used to cheer up
+                                my teammates when we are all salivating with heavy workload. "Simplest Code." 
+                                That's the very first thing I think of whenever I do an algorithm.
+                            </p>
+                            <div class ="banner bg-cyan">
+                                <h1 class ="banner-title white center">
+                                    <i class ="ti-light-bulb white"></i> SKILLS
+                                </h1>
+                            </div>
+                            <h5 class ="antique-white left">Web Development</h5>
+                            <div class ="row">
+                                <div class ="col-12">
+                                    <div class ="col-3 white banner-details">CSS3/SCSS</div>
+                                    <div class ="col-9 bg-red skill-percentage"></div>
+                                </div>
+                            </div>
+                            <div class ="row">
+                                <div class ="col-3-sm white banner-details">PHP/MYSQL</div>
+                                <div class ="col-9-sm bg-purple skill-percentage"></div>
+                            </div>
+                            <div class ="row">
+                                <div class ="col-4-sm white banner-details">JavaScript</div>
+                                <div class ="col-8-sm bg-yellow skill-percentage"></div>
+                            </div>
+                            <div class ="row">
+                                <div class ="col-4-sm white banner-details">Google API</div>
+                                <div class ="col-8-sm bg-cyan skill-percentage"></div>
+                            </div>
+                            <div class ="row">
+                                <div class ="col-5-sm white banner-details">Node Js</div>
+                                <div class ="col-7-sm bg-green skill-percentage"></div>
+                            </div>
+                            <div class ="row">
+                                <div class ="col-5-sm white banner-details">REST API</div>
+                                <div class ="col-7-sm bg-orange skill-percentage"></div>
+                            </div>
+                            <div class ="row">
+                                <div class ="col-5-sm white banner-details">Socket IO</div>
+                                <div class ="col-7-sm bg-blue skill-percentage"></div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
-            </section>
-        </div>
+                <div class ="col-4-sm">
+                    <section class = "body-right">
+                        <div class ="give-me-space">
+        
+                        </div>
+                    </section>
+                </div>-->
     </body>
 </html>

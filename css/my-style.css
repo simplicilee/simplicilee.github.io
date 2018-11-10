@@ -21,6 +21,7 @@ body {
     left: 0;
     top: 0;
     font-size: 100%;
+    background: #f4f3ef;
 }
 
 /* ROOT FONT STYLES */
@@ -31,273 +32,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
     color: #333447;
     line-height: 1.5;
-}
-
-/* TYPOGRAPHY */
-
-h1 {
-    font-size: 2.5rem;
-}
-
-h2 {
-    font-size: 2rem;
-}
-
-h3 {
-    font-size: 1.375rem;
-}
-
-h4 {
-    font-size: 1.125rem;
-}
-
-h5 {
-    font-size: 1rem;
-}
-
-h6 {
-    font-size: 0.875rem;
-}
-
-p {
-    font-size: 1.125rem;
-    font-weight: 200;
-    line-height: 1.8;
-}
-
-.font-light {
-    font-weight: 300;
-}
-
-.font-regular {
-    font-weight: 400;
-}
-
-.font-heavy {
-    font-weight: 700;
-}
-
-/* POSITIONING */
-
-.left {
-    text-align: left;
-}
-
-.right {
-    text-align: right;
-}
-
-.center {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.justify {
-    text-align: justify;
-}
-
-/* ==== GRID SYSTEM ==== */
-
-.container {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.row {
-    position: relative;
-    width: 100%;
-}
-
-.row [class^="col"] {
-    float: left;
-    margin: 0.5rem 2%;
-    min-height: 0.125rem;
-}
-
-.col-1,
-.col-2,
-.col-3,
-.col-4,
-.col-5,
-.col-6,
-.col-7,
-.col-8,
-.col-9,
-.col-10,
-.col-11,
-.col-12 {
-    width: 96%;
-}
-
-.col-1-sm {
-    width: 4.33%;
-}
-
-.col-2-sm {
-    width: 12.66%;
-}
-
-.col-3-sm {
-    width: 21%;
-}
-
-.col-4-sm {
-    width: 29.33%;
-}
-
-.col-5-sm {
-    width: 37.66%;
-}
-
-.col-6-sm {
-    width: 46%;
-}
-
-.col-7-sm {
-    width: 54.33%;
-}
-
-.col-8-sm {
-    width: 62.66%;
-}
-
-.col-9-sm {
-    width: 71%;
-}
-
-.col-10-sm {
-    width: 79.33%;
-}
-
-.col-11-sm {
-    width: 87.66%;
-}
-
-.col-12-sm {
-    width: 96%;
-}
-
-.row::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.hidden-sm {
-    display: none;
-}
-
-@media only screen and (min-width: 33.75em) {  /* 540px */
-    .container {
-        width: 80%;
-    }
-}
-
-@media only screen and (min-width: 45em) {  /* 720px */
-    .col-1 {
-        width: 4.33%;
-    }
-
-    .col-2 {
-        width: 12.66%;
-    }
-
-    .col-3 {
-        width: 21%;
-    }
-
-    .col-4 {
-        width: 29.33%;
-    }
-
-    .col-5 {
-        width: 37.66%;
-    }
-
-    .col-6 {
-        width: 46%;
-    }
-
-    .col-7 {
-        width: 54.33%;
-    }
-
-    .col-8 {
-        width: 62.66%;
-    }
-
-    .col-9 {
-        width: 71%;
-    }
-
-    .col-10 {
-        width: 79.33%;
-    }
-
-    .col-11 {
-        width: 87.66%;
-    }
-
-    .col-12 {
-        width: 96%;
-    }
-
-    .hidden-sm {
-        display: block;
-    }
-}
-
-@media only screen and (min-width: 60em) { /* 960px */
-    .container {
-        width: 75%;
-        max-width: 60rem;
-    }
-}
-
-/**
- * Body Left Section
- */
-
-.body-left {
-    background: #3d3d3d;
-    float: left;
-}
-
-.body-left .profile-picture {
-    width: 80%;
-    border-radius: 50%;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-left: 10%;
-    border: 3px solid antiquewhite;
-}
-
-.body-left h3 {
-    line-height: 0;
-}
-
-.body-left h5 {
-    line-height: 1;
-    margin-bottom: 10px;
-}
-
-.body-left p {
-    font-size: 1rem;
-    line-height: 1;
-}
-
-
-/**
- * Body Right Section
- */
-
-.body-right {
-    background: #f4f3ef;
-    width: 70%;
-    height: auto;
-    float: right;
 }
 
 /**
@@ -344,41 +78,105 @@ p {
     background : #6ab04c;
 }
 
-
 /**
- * Both Section
+ * Photos & Contacts Section
  */
 
-.give-me-space {
-    padding: 0 25px;
+#photo-and-contacts {
+
+    margin-top: 30px;
 }
 
-.banner {
-    height: 60px;
-    border-radius: 6px;
-    padding-right: 15%;
-    width: 100%;
-    margin-bottom: 25px;
+.about-me {
+    color: #444;
+    padding: 0px 20px;
+}
+
+.about-me p {
+    text-align: justify;
+    margin-bottom: 0;
+}
+
+.about-me h3 {
+    text-align: center;
+    line-height: 1;
+    font-weight: 500;
+    margin-bottom: -5px;
+    border-bottom: 2px solid #ed7a53;
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px 0px #555, 1px 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+.profile-picture {
+    width: 70%;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-left: 15%;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
-.banner-title {
+.contact-information, .experience-information {
+    margin-top: 20px;
+}
+
+.contact-information .contact {
+    text-align: left;
+    margin-bottom: 5px;
+    padding-left: 30px;
+    font-size: .9rem;
+}
+
+.contact-information i {
+    font-size: 20px;
+    margin-right: 3px;
+}
+
+.contact-information label {
+    font-weight: bold;
+    color : #ed7a53;
+}
+
+.contact-information span {
+    font-weight: bold;
+    color : #444;
+}
+
+.banner {
+    height: 40px;
+    width: 95%;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    text-shadow: 3px 4px 0px #555, 4px 0px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    margin: 0 auto;
+    margin-bottom: 25px;
     line-height: 2;
-    font-size: 28px;
-    text-shadow: 3px 3px 0px #555, 0px 0px 0px rgba(0, 0, 0, 0.2);
+    position: relative;
 }
 
-.banner-details {
-    font-size: .8rem;
-    line-height: 2;
+.experience-information h3, .experience-information p {
+    text-align: left;
+    line-height: 1.5;
+    font-weight: 500;
+    margin-bottom: -5px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
+.experience-information h3 {
+    text-shadow: 1px 1px 0px #555, 1px 0px 0px rgba(0, 0, 0, 0.2);
+    font-size: .9rem;
 
-.skill-percentage {
-    height: 20px;
-    border-radius: 5px;
-    margin-top: 12px !important;
 }
 
-
-
+.experience-information p {
+    font-size: .9rem;
+    margin-bottom: 20px;
+}
