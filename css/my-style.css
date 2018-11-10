@@ -126,7 +126,7 @@ body {
 .contact-information .contact {
     text-align: left;
     margin-bottom: 5px;
-    padding-left: 30px;
+    padding-left: 15px;
     font-size: .9rem;
 }
 
@@ -147,7 +147,7 @@ body {
 
 .banner {
     height: 40px;
-    width: 95%;
+    width: 97%;
     color: #fff;
     font-weight: bold;
     text-align: center;
@@ -162,16 +162,16 @@ body {
     position: relative;
 }
 
-.experience-information h3, .experience-information p {
+.experience-information h3, .experience-information p, .knowledge-information h3  {
     text-align: left;
     line-height: 1.5;
     font-weight: 500;
     margin-bottom: -5px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-.experience-information h3 {
+.experience-information h3, .knowledge-information h3 {
     text-shadow: 1px 1px 0px #555, 1px 0px 0px rgba(0, 0, 0, 0.2);
     font-size: .9rem;
 
@@ -180,4 +180,37 @@ body {
 .experience-information p {
     font-size: .9rem;
     margin-bottom: 20px;
+}
+
+
+.knowledge-information {
+    margin-top: 20px;
+}
+
+.knowledge-information .banner{
+
+    width: 90%;
+}
+
+.knowledge-information h3 {
+    border: none !important;
+    margin-bottom: 10px;
+}
+
+.knowledge-information .banner-details {
+    font-size: .9rem;
+    line-height: 1.8;
+    margin-left: -5px;
+}
+
+.knowledge-information .skill-percentage {
+    height: 20px;
+    border-radius: 6px;
+    float: right;
+/*    width: 90%;
+    margin: 0 auto;*/
+}
+
+.knowledge-information .give-me-space {
+    padding: 0 35px;
 }
