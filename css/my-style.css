@@ -22,7 +22,7 @@ body {
     top: 0;
     font-size: 100%;
     background: #f4f3ef;
-    background-color: #f4f3ef;
+    background: rgb(244, 243, 239);
 }
 
 /* ROOT FONT STYLES */
