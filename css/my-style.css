@@ -46,6 +46,10 @@ body {
     color: #fff;
 }
 
+.orange {
+    color: #ed7a53;
+}
+
 /**
  * Background Section
  */
@@ -82,7 +86,7 @@ body {
  * Photos & Contacts Section
  */
 
-#photo-and-contacts {
+#portfolio-body {
 
     margin-top: 30px;
 }
@@ -131,7 +135,7 @@ body {
 }
 
 .contact-information i {;
-    margin-right: 1px;
+                        margin-right: 1px;
 }
 
 .contact-information label {
@@ -161,22 +165,37 @@ body {
     position: relative;
 }
 
-.experience-information h3, .experience-information p, .knowledge-information h3  {
+.experience-information h3, .experience-information p, .knowledge-information h3,
+.freelance-information h3, .freelance-information p, .freelance-information h3,
+.education-information h3, .education-information p, .education-information h3  {
     text-align: left;
     line-height: 1.5;
     font-weight: 500;
     margin-bottom: -5px;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
-.experience-information h3, .knowledge-information h3 {
+.experience-information h3, 
+.knowledge-information h3,
+.freelance-information h3,
+.education-information h3{
     text-shadow: 1px 1px 0px #555, 1px 0px 0px rgba(0, 0, 0, 0.2);
     font-size: .9rem;
 
 }
 
-.experience-information p {
+.experience-information h3 {
+
+    display:inline-block;
+    border-bottom: 2px solid #22a6b3;
+    padding-bottom: 2px;
+
+}
+
+.experience-information {
+    padding-bottom: 20px;
+}
+
+.experience-information p, .freelance-information p, .education-information p {
     font-size: .9rem;
     margin-bottom: 20px;
 }
@@ -194,6 +213,7 @@ body {
 .knowledge-information h3 {
     border: none !important;
     margin-bottom: 10px;
+    margin-left: 20px;
 }
 
 .knowledge-information .banner-details {
@@ -206,10 +226,17 @@ body {
     height: 20px;
     border-radius: 6px;
     float: right;
-/*    width: 90%;
-    margin: 0 auto;*/
+    margin-top: 4px;
 }
 
 .knowledge-information .give-me-space {
     padding: 0 35px;
+}
+
+.give-me-space {
+    padding: 0 10px;
+}
+
+.justify-me {
+    text-align: justify !important;
 }
