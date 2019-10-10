@@ -115,16 +115,15 @@ body {
 
 
 .profile-picture {
-    width: 70%;
+    width: 80%;
     border-radius: 50%;
     margin: 0 auto;
     margin-bottom: 10px;
-    margin-left: 15%;
+    margin-left: 10%;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     border: 1px solid #444;
-    transform: rotate(90deg);
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .contact-information, .experience-information {
@@ -187,6 +186,7 @@ body {
 
 }
 
+.freelance-information h3,
 .experience-information h3 {
 
     display:inline-block;
@@ -201,9 +201,8 @@ body {
 
 .experience-information p, .freelance-information p, .education-information p {
     font-size: .9rem;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
-
 
 .knowledge-information {
     margin-top: 20px;
